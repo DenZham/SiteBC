@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+</head>
+
+<body>
+    <!---Тег формы-->
+    <form action="">
+        <p>
+            login <input type="text" name="login" placeholder="Почта" required>
+        </p>
+
+        <p>
+            password <input type="password" name="pass" id="" placeholder="Введите пароль" required>
+
+
+            <a href="https://online.sberbank.ru/CSAFront/index.do">Войти</a>
+        </p>
+        <p>
+        <h3>Ваши интересы</h3>
+        <label> <input type="checkbox" name="interess" value="sport" id="" required> Спорт</label>
+        <label> <input type="checkbox" name="interess" value="sport" id=""> Спорт</label>
+        <label><input type="checkbox" name="interess" value="sport" id=""> Программа</label>
+        <label><input type="checkbox" name="interess" value="sport" id="" checked disabled>Рабство навсегда</label>
+
+
+        </p>
+        <p>
+        <h3>Способ оплаты</h3>
+        <label> <input type="radio" name="pay" value="card" id=""> Карта</label>
+        <label> <input type="radio" name="pay" value="QR" id="">QR код</label>
+        <label> <input type="radio" name="pay" value="card" id=""> Наличными</label>
+
+
+        </p>
+        <H3>Ваш Город</H3>
+        <p>
+            <select name="city" id="">
+                <option value="tyumen">Тюмень</option>
+                <option value="surgut">Сургут</option>
+                <option value="moscow">Москва</option>
+
+            </select>
+
+        <h3>Введите комментарий</h3>
+        <textarea name="comment" id="" cols="30" rows="10"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="войти">
+            <button type="reset">Очистить</button>
+        </p>
+
+
+
+    </form>
+</body>
+
+</html>
